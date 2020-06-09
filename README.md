@@ -1,7 +1,7 @@
 # cli-python
 This is a sample CLI tools
 
-Here is the sample code: 
+### Here is the sample code: 
 
 ```
 import argparse
@@ -20,3 +20,14 @@ print('domain: ', domain)
 print('output file: ', ofile)
 print('lines: ', lines)
 ```
+### Run
+```
+python test_cli.py -d 'amazon.com' -o 'myfile.com' -l 10 
+```
+### Output 
+domain:  amazon.com
+
+output file:  myfile.com
+
+lines:  10
+
